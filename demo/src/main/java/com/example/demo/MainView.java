@@ -20,7 +20,7 @@ public class MainView extends VerticalLayout {
         this.repo = repo;
         this.grid = new Grid<>(Customer.class);
         this.filter = new TextField();
-        this.addNewBtn = new Button("Add new customer");
+        this.addNewBtn = new Button("Add your people");
 
         // Настройка поля поиска
         filter.setPlaceholder("Filter by last name");
